@@ -9,7 +9,7 @@ The project consists of a complete image enhancement workflow:
 * **Synthesis and Evaluation**: In `DE_demo.m`, the extracted detail layer (Residual) is superimposed onto the original image. Finally, `calculate_dataset_y_metrics_mixed.m` automatically computes the Y-channel PSNR and SSIM metrics.
 
 ## File Structure
-
+```
 ├── BSA_MT_Enhanced.m                   # [Core Algorithm] Optimization, MT matching, and detail extraction logic
 ├── DE_demo.m                           # [Main Program] Batch processes images and calls evaluation modules
 ├── calculate_dataset_y_metrics_mixed.m # [Evaluation] Computes Y-channel PSNR/SSIM for PNG/JPG files
@@ -20,7 +20,7 @@ The project consists of a complete image enhancement workflow:
 ├── data/                               # [Input Folder] Folder for raw images (.png or .jpg)
 ├── result/                             # [Output Folder] Folder for enhanced images and calculated metrics
 └── Requirements.txt                    # Environment dependency instructions
-
+```
 ## Quick Start
 Step 1: Prepare Environment
 Ensure MATLAB and the Image Processing Toolbox are installed.
