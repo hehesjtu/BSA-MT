@@ -38,6 +38,7 @@ Open MATLAB and set the current folder to the project directory.
 Type DE_demo in the Command Window and press Enter, or click the Run button in DE_demo.m.
 
 ## Parameter Description
+```
 factor (Default: 4): Detail enhancement multiplier; higher values make edges sharper but may increase noise.
 
 T0 (Default: 2000): Initial temperature for the MT criterion.
@@ -45,7 +46,7 @@ T0 (Default: 2000): Initial temperature for the MT criterion.
 gamma (Default: 0.9): Cooling coefficient for the simulated annealing process.
 
 maxiter (In BSA_MT_Enhanced.m): Maximum iterations for the Bear Smell Algorithm optimization.
-
+```
 ## Notes
 P-file Dependencies: grad.p and texture.p are essential components; do not delete or rename them.
 
